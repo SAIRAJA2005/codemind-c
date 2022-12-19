@@ -4,36 +4,19 @@ int main()
     int n;
     scanf("%d",&n);
     if(n==1)
-    {
-        printf("monday");
-    }
+    printf("monday");
     else if(n==2)
-    {
-        printf("tuesday");
-    }
+    printf("tuesday");
     else if(n==3)
-    {
-        printf("wednesday");
-    }
+    printf("wednesday");
     else if(n==4)
-    {
-        printf("thursday");
-    }
+    printf("thursday");
     else if(n==5)
-    {
-        printf("friday");
-    }
+    printf("friday");
     else if(n==6)
-    {
-        printf("saturday");
-    }
+    printf("saturday");
     else if(n==7)
-    {
-        printf("sunday");
-    }
+    printf("sunday");
     else
-    {
-        printf("invalid input");
-    }
-
-}
+    printf("invalid input");
+} 
