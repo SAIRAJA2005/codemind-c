@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,s;
-    scanf("%d",&n);
-    s=(n*(n+1))*0.5;
+    int a,s;
+    scanf("%d",&a);
+    s=(a*(a+1))*0.5;
     printf("%d",s);
 }
