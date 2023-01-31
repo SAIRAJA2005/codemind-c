@@ -13,7 +13,7 @@ int main()
      printf("%d",n/4);
 	}
 	 else
-    {
+	  {
 	   printf("%d",(n/4)+1);
-    }
+   }
  }
