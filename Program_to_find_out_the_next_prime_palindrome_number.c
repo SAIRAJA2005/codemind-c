@@ -9,9 +9,7 @@ int fun(int n){
 int funn(int n){
     int k = n,s=0,r;
     while(n!=0){
-        r = n%10;
-        s = s*10+r;
-        n = n/10;
+        r = n%10;s = s*10+r;n = n/10;
     }
     if (k==s) return 1;
     else return 0;
