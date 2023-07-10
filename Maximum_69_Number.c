@@ -6,8 +6,8 @@ int main()
     scanf("%s",n);
     for(i=0;i<strlen(n);i++){
         if (n[i]=='6'){
-            n[i]='9';
-            break;
+            n[i]='9'; break;
         }
-    } printf("%s",n);
+    }
+    printf("%s",n);
 }
